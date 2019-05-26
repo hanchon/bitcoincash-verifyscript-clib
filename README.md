@@ -17,8 +17,8 @@ sudo apt-get install libboost-all-dev
 
 ## Build the lib
 ```
-git clone ...
-cd ...
+git clone https://github.com/hanchon/bitcoincash-verifyscript-lib
+cd bitcoincash-verifyscript-lib
 ./build.sh
 ```
 
