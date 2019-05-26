@@ -9,12 +9,14 @@ add_compiler_flag(
 	-Wshadow
 	-Wno-unused-function
 	-Wno-nonnull
-	-Wno-overlength-strings
+    -Wno-overlength-strings
+    -fPIC
 )
 
 add_c_compiler_flag(
 	-std=c89
-	-Wno-long-long
+    -Wno-long-long
+    -fPIC
 )
 
 # Default visibility is hidden on all targets.

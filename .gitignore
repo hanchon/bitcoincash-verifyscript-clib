@@ -1,3 +1,4 @@
 .vscode
 bitcoin-abc
 build
+venv

@@ -18,9 +18,8 @@ struct Amount {
 private:
     int64_t amount;
 
-    explicit constexpr Amount(int64_t _amount) : amount(_amount) {}
-
 public:
+    explicit constexpr Amount(int64_t _amount) : amount(_amount) {}
     constexpr Amount() : amount(0) {}
     constexpr Amount(const Amount &_camount) : amount(_camount.amount) {}
 
